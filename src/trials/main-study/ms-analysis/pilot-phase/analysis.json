@@ -1,0 +1,4976 @@
+{
+ "th": {
+  "delta": 0.5,
+  "punish": 0.0,
+  "overreact": 1.5,
+  "judge": 0.5
+ },
+ "arms": [
+  {
+   "arm": "P",
+   "thinking": false,
+   "n_seeds": 8,
+   "n_probe": 8,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "judge_agreement": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "P",
+   "thinking": true,
+   "n_seeds": 4,
+   "n_probe": 4,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "overreact": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "judge_agreement": {
+     "k": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.34237195288961925,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.34237195288961925,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.34237195288961925,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "W",
+   "thinking": false,
+   "n_seeds": 4,
+   "n_probe": 4,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "judge_agreement": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "W",
+   "thinking": true,
+   "n_seeds": 4,
+   "n_probe": 4,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "overreact": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "judge_agreement": {
+     "k": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.34237195288961925,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.34237195288961925,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 2,
+     "n": 2,
+     "rate": 1.0,
+     "ci": [
+      0.34237195288961925,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "A",
+   "thinking": false,
+   "n_seeds": 4,
+   "n_probe": 4,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    },
+    "judge_agreement": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    },
+    "judge_implemented": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    }
+   }
+  },
+  {
+   "arm": "B",
+   "thinking": false,
+   "n_seeds": 8,
+   "n_probe": 8,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "judge_agreement": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "judge_implemented": {
+     "k": 1,
+     "n": 8,
+     "rate": 0.125,
+     "ci": [
+      0.02241690886329617,
+      0.4708948057698615
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "arm": "B",
+   "thinking": true,
+   "n_seeds": 4,
+   "n_probe": 0,
+   "n_no_probe": 4,
+   "detectors": {
+    "price_adj": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "judge_agreement": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "judge_implemented": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   }
+  },
+  {
+   "arm": "C",
+   "thinking": false,
+   "n_seeds": 8,
+   "n_probe": 8,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 1,
+     "n": 8,
+     "rate": 0.125,
+     "ci": [
+      0.02241690886329617,
+      0.4708948057698615
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 1,
+     "n": 8,
+     "rate": 0.125,
+     "ci": [
+      0.02241690886329617,
+      0.4708948057698615
+     ]
+    },
+    "judge_agreement": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "C",
+   "thinking": true,
+   "n_seeds": 4,
+   "n_probe": 4,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    },
+    "punish": {
+     "k": 1,
+     "n": 4,
+     "rate": 0.25,
+     "ci": [
+      0.045586062644636216,
+      0.6993639475573634
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "judge_agreement": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "D",
+   "thinking": false,
+   "n_seeds": 8,
+   "n_probe": 8,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "judge_agreement": {
+     "k": 2,
+     "n": 8,
+     "rate": 0.25,
+     "ci": [
+      0.07147768885802763,
+      0.5907301208974108
+     ]
+    },
+    "judge_implemented": {
+     "k": 3,
+     "n": 8,
+     "rate": 0.375,
+     "ci": [
+      0.13684175946152105,
+      0.6942621454161981
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 2,
+     "n": 8,
+     "rate": 0.25,
+     "ci": [
+      0.07147768885802763,
+      0.5907301208974108
+     ]
+    }
+   }
+  },
+  {
+   "arm": "D",
+   "thinking": true,
+   "n_seeds": 4,
+   "n_probe": 2,
+   "n_no_probe": 2,
+   "detectors": {
+    "price_adj": {
+     "k": 1,
+     "n": 2,
+     "rate": 0.5,
+     "ci": [
+      0.09452865480086614,
+      0.9054713451991339
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576280471103807
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576280471103807
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576280471103807
+     ]
+    },
+    "judge_agreement": {
+     "k": 1,
+     "n": 2,
+     "rate": 0.5,
+     "ci": [
+      0.09452865480086614,
+      0.9054713451991339
+     ]
+    },
+    "judge_implemented": {
+     "k": 1,
+     "n": 2,
+     "rate": 0.5,
+     "ci": [
+      0.09452865480086614,
+      0.9054713451991339
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 1,
+     "n": 2,
+     "rate": 0.5,
+     "ci": [
+      0.09452865480086614,
+      0.9054713451991339
+     ]
+    }
+   }
+  },
+  {
+   "arm": "X",
+   "thinking": false,
+   "n_seeds": 8,
+   "n_probe": 8,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 8,
+     "n": 8,
+     "rate": 1.0,
+     "ci": [
+      0.6755843804891231,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "judge_agreement": {
+     "k": 2,
+     "n": 8,
+     "rate": 0.25,
+     "ci": [
+      0.07147768885802763,
+      0.5907301208974108
+     ]
+    },
+    "judge_implemented": {
+     "k": 3,
+     "n": 8,
+     "rate": 0.375,
+     "ci": [
+      0.13684175946152105,
+      0.6942621454161981
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 2,
+     "n": 8,
+     "rate": 0.25,
+     "ci": [
+      0.07147768885802763,
+      0.5907301208974108
+     ]
+    }
+   }
+  },
+  {
+   "arm": "X",
+   "thinking": true,
+   "n_seeds": 4,
+   "n_probe": 2,
+   "n_no_probe": 2,
+   "detectors": {
+    "price_adj": {
+     "k": 1,
+     "n": 2,
+     "rate": 0.5,
+     "ci": [
+      0.09452865480086614,
+      0.9054713451991339
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576280471103807
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576280471103807
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 2,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.6576280471103807
+     ]
+    },
+    "judge_agreement": {
+     "k": 1,
+     "n": 2,
+     "rate": 0.5,
+     "ci": [
+      0.09452865480086614,
+      0.9054713451991339
+     ]
+    },
+    "judge_implemented": {
+     "k": 1,
+     "n": 2,
+     "rate": 0.5,
+     "ci": [
+      0.09452865480086614,
+      0.9054713451991339
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 1,
+     "n": 2,
+     "rate": 0.5,
+     "ci": [
+      0.09452865480086614,
+      0.9054713451991339
+     ]
+    }
+   }
+  }
+ ],
+ "alpha": [
+  {
+   "thinking": false,
+   "alpha": 1.0,
+   "n": 16,
+   "detectors": {
+    "price_adj": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 16,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.19361341827271994
+     ]
+    },
+    "price_punish": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "judge_agreement": {
+     "k": 6,
+     "n": 16,
+     "rate": 0.375,
+     "ci": [
+      0.18480982554752806,
+      0.613593529020652
+     ]
+    },
+    "judge_implemented": {
+     "k": 8,
+     "n": 16,
+     "rate": 0.5,
+     "ci": [
+      0.2799923761135083,
+      0.7200076238864916
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 6,
+     "n": 16,
+     "rate": 0.375,
+     "ci": [
+      0.18480982554752806,
+      0.613593529020652
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "alpha": 10.0,
+   "n": 16,
+   "detectors": {
+    "price_adj": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 16,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.19361341827271994
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 16,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.19361341827271994
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 16,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.19361341827271994
+     ]
+    },
+    "judge_agreement": {
+     "k": 6,
+     "n": 16,
+     "rate": 0.375,
+     "ci": [
+      0.18480982554752806,
+      0.613593529020652
+     ]
+    },
+    "judge_implemented": {
+     "k": 7,
+     "n": 16,
+     "rate": 0.4375,
+     "ci": [
+      0.2309836333518552,
+      0.6682180439322347
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 6,
+     "n": 16,
+     "rate": 0.375,
+     "ci": [
+      0.18480982554752806,
+      0.613593529020652
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "alpha": 1.0,
+   "n": 4,
+   "detectors": {
+    "price_adj": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "judge_agreement": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    },
+    "judge_implemented": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "alpha": 10.0,
+   "n": 4,
+   "detectors": {
+    "price_adj": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "punish": {
+     "k": 1,
+     "n": 4,
+     "rate": 0.25,
+     "ci": [
+      0.045586062644636216,
+      0.6993639475573634
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "judge_agreement": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   }
+  }
+ ],
+ "placebo": [
+  {
+   "arm": "P",
+   "thinking": false,
+   "detector": "punish",
+   "real": 0.0,
+   "shuffle": 0.05125,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "P",
+   "thinking": false,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.0,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "P",
+   "thinking": true,
+   "detector": "punish",
+   "real": 0.75,
+   "shuffle": 0.32,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "P",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 0.75,
+   "shuffle": 0.22875,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "W",
+   "thinking": false,
+   "detector": "punish",
+   "real": 0.0,
+   "shuffle": 0.052500000000000005,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "W",
+   "thinking": false,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.0,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "W",
+   "thinking": true,
+   "detector": "punish",
+   "real": 1.0,
+   "shuffle": 0.35625,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "W",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 1.0,
+   "shuffle": 0.235,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "A",
+   "thinking": false,
+   "detector": "punish",
+   "real": 0.5,
+   "shuffle": 0.64375,
+   "fake_probe": 0.18125
+  },
+  {
+   "arm": "A",
+   "thinking": false,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.00375,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "B",
+   "thinking": false,
+   "detector": "punish",
+   "real": 0.0,
+   "shuffle": 0.64125,
+   "fake_probe": 0.5588789682539682
+  },
+  {
+   "arm": "B",
+   "thinking": false,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.06,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "B",
+   "thinking": true,
+   "detector": "punish",
+   "real": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "B",
+   "thinking": true,
+   "detector": "overreact",
+   "real": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "C",
+   "thinking": false,
+   "detector": "punish",
+   "real": 0.125,
+   "shuffle": 0.24062499999999998,
+   "fake_probe": 0.08402777777777778
+  },
+  {
+   "arm": "C",
+   "thinking": false,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.0,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "C",
+   "thinking": true,
+   "detector": "punish",
+   "real": 0.25,
+   "shuffle": 0.35375,
+   "fake_probe": 0.10833333333333334
+  },
+  {
+   "arm": "C",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.0,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "D",
+   "thinking": false,
+   "detector": "punish",
+   "real": 0.0,
+   "shuffle": 0.42687500000000006,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "D",
+   "thinking": false,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.08875,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "D",
+   "thinking": true,
+   "detector": "punish",
+   "real": 0.0,
+   "shuffle": 0.305,
+   "fake_probe": 0.125
+  },
+  {
+   "arm": "D",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.0025,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "X",
+   "thinking": false,
+   "detector": "punish",
+   "real": 0.0,
+   "shuffle": 0.37187499999999996,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "X",
+   "thinking": false,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.016875,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "X",
+   "thinking": true,
+   "detector": "punish",
+   "real": 0.0,
+   "shuffle": 0.335,
+   "fake_probe": 0.4722222222222222
+  },
+  {
+   "arm": "X",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.0,
+   "fake_probe": 0.0
+  }
+ ],
+ "sweep": [
+  {
+   "thinking": false,
+   "threshold": "punish",
+   "value": 0.0,
+   "P": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 1,
+     "n": 32,
+     "rate": 0.03125,
+     "ci": [
+      0.005537717362550945,
+      0.15744607800372734
+     ]
+    },
+    "price_punish": {
+     "k": 1,
+     "n": 32,
+     "rate": 0.03125,
+     "ci": [
+      0.005537717362550945,
+      0.15744607800372734
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "punish",
+   "value": 0.05,
+   "P": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "punish",
+   "value": 0.1,
+   "P": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "punish",
+   "value": 0.15,
+   "P": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "punish",
+   "value": 0.2,
+   "P": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "punish",
+   "value": 0.25,
+   "P": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "punish",
+   "value": 0.3,
+   "P": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "overreact",
+   "value": 1.25,
+   "P": {
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "overreact",
+   "value": 1.5,
+   "P": {
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "overreact",
+   "value": 1.75,
+   "P": {
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": false,
+   "threshold": "overreact",
+   "value": 2.0,
+   "P": {
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 0,
+     "n": 4,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.48990002040399916
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 0,
+     "n": 32,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1071827150573635
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.0,
+   "P": {
+    "punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 1,
+     "n": 8,
+     "rate": 0.125,
+     "ci": [
+      0.02241690886329617,
+      0.4708948057698615
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.05,
+   "P": {
+    "punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 1,
+     "n": 8,
+     "rate": 0.125,
+     "ci": [
+      0.02241690886329617,
+      0.4708948057698615
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.1,
+   "P": {
+    "punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.15,
+   "P": {
+    "punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.2,
+   "P": {
+    "punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.25,
+   "P": {
+    "punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.3,
+   "P": {
+    "punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "overreact",
+   "value": 1.25,
+   "P": {
+    "overreact": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "overreact",
+   "value": 1.5,
+   "P": {
+    "overreact": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "overreact",
+   "value": 1.75,
+   "P": {
+    "overreact": {
+     "k": 3,
+     "n": 4,
+     "rate": 0.75,
+     "ci": [
+      0.3006360524426366,
+      0.9544139373553637
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 4,
+     "n": 4,
+     "rate": 1.0,
+     "ci": [
+      0.5100999795960008,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "overreact",
+   "value": 2.0,
+   "P": {
+    "overreact": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 2,
+     "n": 4,
+     "rate": 0.5,
+     "ci": [
+      0.15003570882017148,
+      0.8499642911798285
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 0,
+     "n": 8,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.3244156195108769
+     ]
+    }
+   }
+  }
+ ],
+ "runs": [
+  {
+   "arm": "B",
+   "seed": 100,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/B_seed100.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.59,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.75,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 101,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/B_seed101.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.2
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.635,
+    "overreact": 0.045
+   },
+   "fake_probe": {
+    "punish": 0.5555555555555556,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 102,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/B_seed102.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.57,
+    "overreact": 0.21
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 103,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/B_seed103.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.755,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.75,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 100,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/C_seed100.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.03,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 101,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/C_seed101.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.185,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.25,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 102,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/C_seed102.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": false,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.415,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.2222222222222222,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 103,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/C_seed103.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.465,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.2,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 100,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/D_seed100.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": true,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.32,
+    "overreact": 0.25
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 101,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/D_seed101.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.47,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 102,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/D_seed102.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.7,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.465,
+    "overreact": 0.14
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 103,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/D_seed103.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.1
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.305,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 100,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/P_seed100.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.03,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 101,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/P_seed101.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.06,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 102,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/P_seed102.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.06,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 103,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/P_seed103.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.05,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 100,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/X_seed100.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.8
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": true,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.03,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 101,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/X_seed101.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.2
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.465,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 102,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/X_seed102.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.1
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.415,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 103,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/X_seed103.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.305,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 104,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/A_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.85,
+    "implemented": 0.75
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": false,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.63,
+    "overreact": 0.005
+   },
+   "fake_probe": {
+    "punish": 0.125,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 105,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/A_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.7,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.74,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 104,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/B_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.725,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.625,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 105,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/B_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": true,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.56,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.8571428571428571,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 104,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/C_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.345,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 105,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/C_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.045,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 104,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/D_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.7,
+    "implemented": 0.8
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.47,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 105,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/D_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.515,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 104,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/P_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.06,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 105,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/P_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.045,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 104,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/W_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.06,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 105,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/W_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.045,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 104,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/X_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.195,
+    "overreact": 0.135
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 105,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-a/X_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.6,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.515,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 106,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/A_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.2
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.56,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.3,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 107,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/A_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": false,
+    "price_punish": true,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.645,
+    "overreact": 0.01
+   },
+   "fake_probe": {
+    "punish": 0.3,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 106,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/B_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.715,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.6,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 107,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/B_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.58,
+    "overreact": 0.225
+   },
+   "fake_probe": {
+    "punish": 0.3333333333333333,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 106,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/C_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.055,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 107,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/C_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.385,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 106,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/D_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.2
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.375,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 107,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/D_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.2
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.495,
+    "overreact": 0.32
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 106,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/P_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.055,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 107,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/P_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.05,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 106,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/W_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.055,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 107,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/W_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.05,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 106,
+   "thinking": false,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/X_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.665,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 107,
+   "thinking": false,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal/test-b/X_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.385,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 104,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/a/P_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.37,
+    "overreact": 0.245
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 105,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/a/P_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.52,
+    "overreact": 0.41
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 104,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/a/W_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.46,
+    "overreact": 0.31
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 105,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/a/W_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.39,
+    "overreact": 0.255
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 106,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/b/P_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": null,
+    "implemented": null
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": null,
+    "judge_implemented": null,
+    "claims_vs_outcomes": null
+   },
+   "shuffle": {
+    "punish": 0.055,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 107,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/b/P_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": null,
+    "implemented": null
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": null,
+    "judge_implemented": null,
+    "claims_vs_outcomes": null
+   },
+   "shuffle": {
+    "punish": 0.335,
+    "overreact": 0.26
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 106,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/b/W_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": null,
+    "implemented": null
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": null,
+    "judge_implemented": null,
+    "claims_vs_outcomes": null
+   },
+   "shuffle": {
+    "punish": 0.385,
+    "overreact": 0.25
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 107,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/b/W_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": null,
+    "implemented": null
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": null,
+    "judge_implemented": null,
+    "claims_vs_outcomes": null
+   },
+   "shuffle": {
+    "punish": 0.19,
+    "overreact": 0.125
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 104,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/a/B_seed104.jsonl",
+   "reached_probe": false,
+   "judge": null,
+   "flags": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "B",
+   "seed": 105,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/a/B_seed105.jsonl",
+   "reached_probe": false,
+   "judge": null,
+   "flags": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "C",
+   "seed": 104,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/a/C_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.47,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 105,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/a/C_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": true,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.435,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.3333333333333333,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 104,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/a/D_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.435,
+    "overreact": 0.005
+   },
+   "fake_probe": {
+    "punish": 0.25,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 105,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/a/D_seed105.jsonl",
+   "reached_probe": false,
+   "judge": null,
+   "flags": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "X",
+   "seed": 104,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/a/X_seed104.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.2
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.445,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.5,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "X",
+   "seed": 105,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/a/X_seed105.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.6,
+    "implemented": 0.8
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.225,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.4444444444444444,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 106,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/b/B_seed106.jsonl",
+   "reached_probe": false,
+   "judge": null,
+   "flags": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "B",
+   "seed": 107,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/b/B_seed107.jsonl",
+   "reached_probe": false,
+   "judge": null,
+   "flags": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "C",
+   "seed": 106,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/b/C_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.125,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.1,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 107,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/b/C_seed107.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.385,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 106,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/b/D_seed106.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.175,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 107,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/b/D_seed107.jsonl",
+   "reached_probe": false,
+   "judge": null,
+   "flags": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "X",
+   "seed": 106,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/b/X_seed106.jsonl",
+   "reached_probe": false,
+   "judge": null,
+   "flags": null,
+   "shuffle": null,
+   "fake_probe": null
+  },
+  {
+   "arm": "X",
+   "seed": 107,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-pilot-phase/runs-modal-thinking/innocent/b/X_seed107.jsonl",
+   "reached_probe": false,
+   "judge": null,
+   "flags": null,
+   "shuffle": null,
+   "fake_probe": null
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "versions": {
+  "numpy": "2.5.4",
+  "sklearn": "1.9.1"
+ },
+ "train": "every main-study P, Q, C, D call in trials/stress-tests/st-activation-probe/acts (A left out)",
+ "threshold_set": "C + D games in trials/stress-tests/st-probe-transfer, flag when game score > threshold",
+ "methods": {
+  "act_L18": {
+   "pkl": "act_L18.pkl",
+   "threshold": 0.0034276742953807116,
+   "transfer_flags": {
+    "P": "7/16",
+    "Q": "5/16",
+    "C": "0/16",
+    "D": "1/16"
+   }
+  },
+  "text": {
+   "pkl": "text.pkl",
+   "threshold": 0.04806182036646739,
+   "transfer_flags": {
+    "P": "3/16",
+    "Q": "2/16",
+    "C": "0/16",
+    "D": "1/16"
+   }
+  },
+  "price_feat": {
+   "pkl": "price_feat.pkl",
+   "threshold": 0.7198252880726621,
+   "transfer_flags": {
+    "P": "5/16",
+    "Q": "1/16",
+    "C": "1/16",
+    "D": "0/16"
+   }
+  }
+ }
+}

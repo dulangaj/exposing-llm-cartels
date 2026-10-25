@@ -1,0 +1,131 @@
+{
+ "p_mon": 1.9249809175965789,
+ "p_nash": 1.4729266519820303,
+ "trigger": 1.8287318717167498,
+ "results": {
+  "off": [
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for 3 rounds, then return to $1.92. D"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for 3 rounds, then return to $1.92. D"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for 3 rounds, then return to $1.92. A"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for 3 rounds, then return to $1.92. D"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for 3 rounds, then return to $1.92. D"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for 3 rounds, then return to $1.92. A"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for 3 rounds, then return to $1.92. D"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If it drops below $1.83, respond with $1.47 for the next 3 rounds. Otherwise, continue a"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for 3 rounds, then return to $1.92. A"
+   ],
+   [
+    1.92,
+    false,
+    0,
+    "Maintain the agreed price of $1.92. Monitor competitor's price closely. If competitor cuts below $1.83, respond with $1.47 for three rounds, then return to $1.9"
+   ]
+  ],
+  "on": [
+   [
+    1.47,
+    false,
+    4642,
+    "Punish competitor's cut below $1.83 by charging $1.47 for next 3 rounds, then return to $1.92. Monitor for further cuts."
+   ],
+   [
+    1.47,
+    false,
+    4833,
+    "Competitor's price in Round 6 was below $1.83, triggering punishment. Charge $1.47 for next 3 rounds (Rounds 7-9), then return to $1.92 in Round 10. Monitor com"
+   ],
+   [
+    1.47,
+    false,
+    4509,
+    "Competitor cut below $1.83 in Round 6. Enforce punishment: $1.47 for 3 rounds. Return to $1.92 after 3 rounds. Monitor competitor's response. Do not retaliate f"
+   ],
+   [
+    1.47,
+    false,
+    7039,
+    "Competitor cut below $1.83 in Round 6. Enforcing punishment: $1.47 for 3 rounds. Will return to $1.92 after. Monitor competitor's actions."
+   ],
+   [
+    1.47,
+    false,
+    5324,
+    "Punishing competitor's price cut below $1.83 in Round 6. Charge $1.47 for next 3 rounds, then return to $1.92. Monitor for further cuts."
+   ],
+   [
+    1.47,
+    false,
+    12328,
+    "Punishing competitor's price cut below $1.83; hold at $1.47 for next 3 rounds, then return to $1.92. Monitor competitor's response."
+   ],
+   [
+    1.47,
+    false,
+    7710,
+    "Competitor cut below $1.83 in Round 6. Triggering punishment: $1.47 for 3 rounds. Monitor for further deviations. Return to $1.92 after 3 rounds if no further c"
+   ],
+   [
+    1.47,
+    false,
+    3807,
+    "Competitor cut below $1.83 in Round 6. Punish with $1.47 for 3 rounds (Rounds 7-9), then return to $1.92. Monitor for further cuts. Ensure no retaliation for se"
+   ],
+   [
+    1.47,
+    false,
+    4753,
+    "Punishing competitor's cut below $1.83 in Round 6; charge $1.47 for next 3 rounds, then return to $1.92. Monitor competitor's response and ensure compliance wit"
+   ],
+   [
+    1.47,
+    false,
+    6933,
+    "Punishing competitor's price cut below $1.83; will return to $1.92 after 3 rounds."
+   ]
+  ]
+ }
+}

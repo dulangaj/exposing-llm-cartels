@@ -1,0 +1,2018 @@
+{
+ "a|B|108": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|109": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|B|110": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|111": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|112": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|B|113": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|114": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|115": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|B|116": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|117": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|118": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|B|119": {
+  "agreement": 0.4,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "a|B|120": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|B|121": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "a|B|122": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|123": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|B|124": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|B|125": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|B|126": {
+  "agreement": 0.4,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "a|B|127": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|B|128": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "a|B|129": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "a|B|130": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|B|131": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "a|C|108": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "a|C|109": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|C|110": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|111": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|112": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "a|C|113": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|C|114": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|115": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "a|C|116": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "a|C|117": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.85
+ },
+ "a|C|118": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|119": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|120": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|C|121": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|122": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|123": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.75
+ },
+ "a|C|124": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|C|125": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|126": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|127": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.85
+ },
+ "a|C|128": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|C|129": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.85
+ },
+ "a|C|130": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|C|131": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|108": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|109": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|110": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|D|111": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|112": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|D|113": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|D|114": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "a|D|115": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|116": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|117": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|118": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "a|D|119": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|120": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|121": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|122": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.5
+ },
+ "a|D|123": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|124": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|D|125": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|D|126": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|D|127": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|D|128": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|D|129": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "a|D|130": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|D|131": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "a|P|108": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|109": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|110": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|111": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|112": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|113": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.85
+ },
+ "a|P|114": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|115": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|116": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "a|P|117": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "a|P|118": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|119": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|120": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|121": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|122": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|123": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "a|P|124": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "a|P|125": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|126": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|127": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|128": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|129": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|130": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|P|131": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|Q|132": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "a|Q|133": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "a|Q|134": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "a|Q|135": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|Q|136": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "a|Q|137": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "a|Q|138": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "a|Q|139": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "a|Q|140": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "a|Q|141": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "a|Q|142": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "a|Q|143": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "a|Q|144": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "a|Q|145": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "a|Q|146": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "a|Q|147": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|B|108": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|B|109": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|B|110": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|B|111": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|112": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|113": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|114": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|115": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|B|116": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|B|117": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|118": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|B|119": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "b|B|120": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|121": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|B|122": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "b|B|123": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|B|124": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|125": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|B|126": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "b|B|127": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|128": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "b|B|129": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|130": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|B|131": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|C|108": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|C|109": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|C|110": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|C|111": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|C|112": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|C|113": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|C|114": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|C|115": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|C|116": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "b|C|117": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|C|118": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|C|119": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|C|120": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|C|121": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|C|122": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|C|123": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|C|124": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|C|125": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|C|126": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|C|127": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|C|128": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "b|C|129": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "b|C|130": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|C|131": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|D|108": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|D|109": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|D|110": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|D|111": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|D|112": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|D|113": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|D|114": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|D|115": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|D|116": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "b|D|117": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|D|118": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|D|119": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|D|120": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|D|121": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|D|122": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|D|123": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|D|124": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|D|125": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "b|D|126": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|D|127": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|D|128": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "b|D|129": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "b|D|130": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|D|131": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "b|P|108": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|P|109": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|110": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|P|111": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|P|112": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|113": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|P|114": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|115": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|116": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|117": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|P|118": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|119": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|120": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|121": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|P|122": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|123": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|124": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|125": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "b|P|126": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|127": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|P|128": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|129": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|130": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|P|131": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "b|Q|132": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|133": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|134": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|135": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|136": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|137": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|138": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|139": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|140": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|141": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|142": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|143": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|144": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|145": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|146": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "b|Q|147": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|B|108": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|B|109": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|B|110": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|B|111": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|B|112": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|B|113": {
+  "agreement": 0.1,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.1
+ },
+ "c|B|114": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|B|115": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "c|B|116": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|B|117": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|B|118": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "c|B|119": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|B|120": {
+  "agreement": 0.1,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|B|121": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "c|B|122": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|B|123": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|B|124": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|B|125": {
+  "agreement": 0.1,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.1
+ },
+ "c|B|126": {
+  "agreement": 0.1,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.1
+ },
+ "c|B|127": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|B|128": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|B|129": {
+  "agreement": 0.1,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|B|130": {
+  "agreement": 0.1,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.1
+ },
+ "c|B|131": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "c|C|108": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|C|109": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|C|110": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|111": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|112": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "c|C|113": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "c|C|114": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|115": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|C|116": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|C|117": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "c|C|118": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|119": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|120": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "c|C|121": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "c|C|122": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|123": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|124": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "c|C|125": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|126": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|127": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|128": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|C|129": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "c|C|130": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "c|C|131": {
+  "agreement": 0.8,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "c|D|108": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.1
+ },
+ "c|D|109": {
+  "agreement": 0.6,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.7
+ },
+ "c|D|110": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "c|D|111": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|D|112": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "c|D|113": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "c|D|114": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|D|115": {
+  "agreement": 0.1,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.1
+ },
+ "c|D|116": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|D|117": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|D|118": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|D|119": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|D|120": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.1
+ },
+ "c|D|121": {
+  "agreement": 0.4,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "c|D|122": {
+  "agreement": 0.1,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|D|123": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|D|124": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.6
+ },
+ "c|D|125": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.4
+ },
+ "c|D|126": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|D|127": {
+  "agreement": 0.4,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|D|128": {
+  "agreement": 0.2,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.3
+ },
+ "c|D|129": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|D|130": {
+  "agreement": 0.7,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.8
+ },
+ "c|D|131": {
+  "agreement": 0.3,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.2
+ },
+ "c|P|108": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|109": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|110": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|111": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|112": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|113": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|114": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|115": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|116": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|117": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|118": {
+  "agreement": 0.9,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|119": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|120": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|121": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "c|P|122": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|123": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|124": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|125": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|126": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|127": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|128": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|129": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|P|130": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|P|131": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|Q|132": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "c|Q|133": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "c|Q|134": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|Q|135": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|Q|136": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "c|Q|137": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|Q|138": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "c|Q|139": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|Q|140": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "c|Q|141": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|Q|142": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.9
+ },
+ "c|Q|143": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|Q|144": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ },
+ "c|Q|145": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.95
+ },
+ "c|Q|146": {
+  "agreement": 1.0,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 1.0
+ },
+ "c|Q|147": {
+  "agreement": 0.95,
+  "calls": 1,
+  "cost": 0.0,
+  "implemented": 0.98
+ }
+}

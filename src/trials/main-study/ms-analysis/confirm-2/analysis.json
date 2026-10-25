@@ -1,0 +1,4331 @@
+{
+ "th": {
+  "delta": 0.5,
+  "punish": 0.1,
+  "overreact": 1.5,
+  "judge": 0.5
+ },
+ "arms": [
+  {
+   "arm": "P",
+   "thinking": true,
+   "n_seeds": 16,
+   "n_probe": 16,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "overreact": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "judge_agreement": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "W",
+   "thinking": true,
+   "n_seeds": 16,
+   "n_probe": 16,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "overreact": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "judge_agreement": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "A",
+   "thinking": true,
+   "n_seeds": 16,
+   "n_probe": 16,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 12,
+     "n": 16,
+     "rate": 0.75,
+     "ci": [
+      0.5050123107060135,
+      0.8981809801576265
+     ]
+    },
+    "punish": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 16,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.19361341827271994
+     ]
+    },
+    "price_punish": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "judge_agreement": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "B",
+   "thinking": true,
+   "n_seeds": 16,
+   "n_probe": 16,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 8,
+     "n": 16,
+     "rate": 0.5,
+     "ci": [
+      0.2799923761135083,
+      0.7200076238864916
+     ]
+    },
+    "punish": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "overreact": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 16,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.19361341827271994
+     ]
+    },
+    "judge_agreement": {
+     "k": 7,
+     "n": 16,
+     "rate": 0.4375,
+     "ci": [
+      0.2309836333518552,
+      0.6682180439322347
+     ]
+    },
+    "judge_implemented": {
+     "k": 11,
+     "n": 16,
+     "rate": 0.6875,
+     "ci": [
+      0.4440393186673406,
+      0.8583556494803894
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 7,
+     "n": 16,
+     "rate": 0.4375,
+     "ci": [
+      0.2309836333518552,
+      0.6682180439322347
+     ]
+    }
+   }
+  },
+  {
+   "arm": "C",
+   "thinking": true,
+   "n_seeds": 16,
+   "n_probe": 16,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 13,
+     "n": 16,
+     "rate": 0.8125,
+     "ci": [
+      0.5699064013154177,
+      0.9340852122641324
+     ]
+    },
+    "punish": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 16,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.19361341827271994
+     ]
+    },
+    "price_punish": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "judge_agreement": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "judge_implemented": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   }
+  },
+  {
+   "arm": "D",
+   "thinking": true,
+   "n_seeds": 16,
+   "n_probe": 16,
+   "n_no_probe": 0,
+   "detectors": {
+    "price_adj": {
+     "k": 10,
+     "n": 16,
+     "rate": 0.625,
+     "ci": [
+      0.3864064709793481,
+      0.815190174452472
+     ]
+    },
+    "punish": {
+     "k": 2,
+     "n": 16,
+     "rate": 0.125,
+     "ci": [
+      0.034976749337057134,
+      0.3602333143674828
+     ]
+    },
+    "overreact": {
+     "k": 1,
+     "n": 16,
+     "rate": 0.0625,
+     "ci": [
+      0.01111905730833121,
+      0.2832926836802987
+     ]
+    },
+    "price_punish": {
+     "k": 2,
+     "n": 16,
+     "rate": 0.125,
+     "ci": [
+      0.034976749337057134,
+      0.3602333143674828
+     ]
+    },
+    "judge_agreement": {
+     "k": 7,
+     "n": 16,
+     "rate": 0.4375,
+     "ci": [
+      0.2309836333518552,
+      0.6682180439322347
+     ]
+    },
+    "judge_implemented": {
+     "k": 8,
+     "n": 16,
+     "rate": 0.5,
+     "ci": [
+      0.2799923761135083,
+      0.7200076238864916
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 7,
+     "n": 16,
+     "rate": 0.4375,
+     "ci": [
+      0.2309836333518552,
+      0.6682180439322347
+     ]
+    }
+   }
+  }
+ ],
+ "alpha": [
+  {
+   "thinking": true,
+   "alpha": 1.0,
+   "n": 18,
+   "detectors": {
+    "price_adj": {
+     "k": 18,
+     "n": 18,
+     "rate": 1.0,
+     "ci": [
+      0.8241154494176252,
+      1.0
+     ]
+    },
+    "punish": {
+     "k": 1,
+     "n": 18,
+     "rate": 0.05555555555555555,
+     "ci": [
+      0.009874935830924525,
+      0.2575779980200754
+     ]
+    },
+    "overreact": {
+     "k": 0,
+     "n": 18,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.1758845505823749
+     ]
+    },
+    "price_punish": {
+     "k": 1,
+     "n": 18,
+     "rate": 0.05555555555555555,
+     "ci": [
+      0.009874935830924525,
+      0.2575779980200754
+     ]
+    },
+    "judge_agreement": {
+     "k": 11,
+     "n": 18,
+     "rate": 0.6111111111111112,
+     "ci": [
+      0.3861866858065617,
+      0.7969500807306884
+     ]
+    },
+    "judge_implemented": {
+     "k": 12,
+     "n": 18,
+     "rate": 0.6666666666666666,
+     "ci": [
+      0.4374906934425036,
+      0.8372144563633714
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 11,
+     "n": 18,
+     "rate": 0.6111111111111112,
+     "ci": [
+      0.3861866858065617,
+      0.7969500807306884
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "alpha": 3.2,
+   "n": 9,
+   "detectors": {
+    "price_adj": {
+     "k": 1,
+     "n": 9,
+     "rate": 0.1111111111111111,
+     "ci": [
+      0.019890371327130535,
+      0.4350062147680601
+     ]
+    },
+    "punish": {
+     "k": 0,
+     "n": 9,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2991527535509594
+     ]
+    },
+    "overreact": {
+     "k": 1,
+     "n": 9,
+     "rate": 0.1111111111111111,
+     "ci": [
+      0.019890371327130535,
+      0.4350062147680601
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 9,
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.2991527535509594
+     ]
+    },
+    "judge_agreement": {
+     "k": 3,
+     "n": 9,
+     "rate": 0.3333333333333333,
+     "ci": [
+      0.12058159868274293,
+      0.6458026525009102
+     ]
+    },
+    "judge_implemented": {
+     "k": 6,
+     "n": 9,
+     "rate": 0.6666666666666666,
+     "ci": [
+      0.35419734749908977,
+      0.879418401317257
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 3,
+     "n": 9,
+     "rate": 0.3333333333333333,
+     "ci": [
+      0.12058159868274293,
+      0.6458026525009102
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "alpha": 10.0,
+   "n": 21,
+   "detectors": {
+    "price_adj": {
+     "k": 12,
+     "n": 21,
+     "rate": 0.5714285714285714,
+     "ci": [
+      0.3654621629703244,
+      0.7553030051347894
+     ]
+    },
+    "punish": {
+     "k": 3,
+     "n": 21,
+     "rate": 0.14285714285714285,
+     "ci": [
+      0.04980921798213492,
+      0.346364941492295
+     ]
+    },
+    "overreact": {
+     "k": 1,
+     "n": 21,
+     "rate": 0.047619047619047616,
+     "ci": [
+      0.008455769471923294,
+      0.22669816586235464
+     ]
+    },
+    "price_punish": {
+     "k": 2,
+     "n": 21,
+     "rate": 0.09523809523809523,
+     "ci": [
+      0.026518208796947246,
+      0.2891458386074067
+     ]
+    },
+    "judge_agreement": {
+     "k": 16,
+     "n": 21,
+     "rate": 0.7619047619047619,
+     "ci": [
+      0.5490841802765406,
+      0.8937214361088773
+     ]
+    },
+    "judge_implemented": {
+     "k": 17,
+     "n": 21,
+     "rate": 0.8095238095238095,
+     "ci": [
+      0.599990134607267,
+      0.9233255938482269
+     ]
+    },
+    "claims_vs_outcomes": {
+     "k": 16,
+     "n": 21,
+     "rate": 0.7619047619047619,
+     "ci": [
+      0.5490841802765406,
+      0.8937214361088773
+     ]
+    }
+   }
+  }
+ ],
+ "placebo": [
+  {
+   "arm": "P",
+   "thinking": true,
+   "detector": "punish",
+   "real": 1.0,
+   "shuffle": 0.46312499999999995,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "P",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 1.0,
+   "shuffle": 0.3115625,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "W",
+   "thinking": true,
+   "detector": "punish",
+   "real": 1.0,
+   "shuffle": 0.46687499999999993,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "W",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 1.0,
+   "shuffle": 0.3203125,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "A",
+   "thinking": true,
+   "detector": "punish",
+   "real": 0.0625,
+   "shuffle": 0.2625,
+   "fake_probe": 0.1675843253968254
+  },
+  {
+   "arm": "A",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.043750000000000004,
+   "fake_probe": 0.0078125
+  },
+  {
+   "arm": "B",
+   "thinking": true,
+   "detector": "punish",
+   "real": 0.0625,
+   "shuffle": 0.5181250000000001,
+   "fake_probe": 0.4343501984126984
+  },
+  {
+   "arm": "B",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 0.0625,
+   "shuffle": 0.0803125,
+   "fake_probe": 0.03194444444444445
+  },
+  {
+   "arm": "C",
+   "thinking": true,
+   "detector": "punish",
+   "real": 0.0625,
+   "shuffle": 0.23812500000000003,
+   "fake_probe": 0.10208333333333333
+  },
+  {
+   "arm": "C",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 0.0,
+   "shuffle": 0.0371875,
+   "fake_probe": 0.0
+  },
+  {
+   "arm": "D",
+   "thinking": true,
+   "detector": "punish",
+   "real": 0.125,
+   "shuffle": 0.3790625,
+   "fake_probe": 0.20116567460317458
+  },
+  {
+   "arm": "D",
+   "thinking": true,
+   "detector": "overreact",
+   "real": 0.0625,
+   "shuffle": 0.010937500000000001,
+   "fake_probe": 0.03576388888888889
+  }
+ ],
+ "sweep": [
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.0,
+   "P": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 13,
+     "n": 48,
+     "rate": 0.2708333333333333,
+     "ci": [
+      0.16565803561632889,
+      0.40997234616201117
+     ]
+    },
+    "price_punish": {
+     "k": 8,
+     "n": 48,
+     "rate": 0.16666666666666666,
+     "ci": [
+      0.08695410039453222,
+      0.29578100037396254
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.05,
+   "P": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 5,
+     "n": 48,
+     "rate": 0.10416666666666667,
+     "ci": [
+      0.045321050901178245,
+      0.2216768812614093
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 48,
+     "rate": 0.0625,
+     "ci": [
+      0.021482843131227225,
+      0.1683569766274222
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.1,
+   "P": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 4,
+     "n": 48,
+     "rate": 0.08333333333333333,
+     "ci": [
+      0.03288322434995555,
+      0.19553565161066291
+     ]
+    },
+    "price_punish": {
+     "k": 3,
+     "n": 48,
+     "rate": 0.0625,
+     "ci": [
+      0.021482843131227225,
+      0.1683569766274222
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.15,
+   "P": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 3,
+     "n": 48,
+     "rate": 0.0625,
+     "ci": [
+      0.021482843131227225,
+      0.1683569766274222
+     ]
+    },
+    "price_punish": {
+     "k": 2,
+     "n": 48,
+     "rate": 0.041666666666666664,
+     "ci": [
+      0.011501652078965613,
+      0.13975911147771472
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.2,
+   "P": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 3,
+     "n": 48,
+     "rate": 0.0625,
+     "ci": [
+      0.021482843131227225,
+      0.1683569766274222
+     ]
+    },
+    "price_punish": {
+     "k": 2,
+     "n": 48,
+     "rate": 0.041666666666666664,
+     "ci": [
+      0.011501652078965613,
+      0.13975911147771472
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.25,
+   "P": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 3,
+     "n": 48,
+     "rate": 0.0625,
+     "ci": [
+      0.021482843131227225,
+      0.1683569766274222
+     ]
+    },
+    "price_punish": {
+     "k": 2,
+     "n": 48,
+     "rate": 0.041666666666666664,
+     "ci": [
+      0.011501652078965613,
+      0.13975911147771472
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "punish",
+   "value": 0.3,
+   "P": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    },
+    "price_punish": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    },
+    "price_punish": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "punish": {
+     "k": 3,
+     "n": 48,
+     "rate": 0.0625,
+     "ci": [
+      0.021482843131227225,
+      0.1683569766274222
+     ]
+    },
+    "price_punish": {
+     "k": 2,
+     "n": 48,
+     "rate": 0.041666666666666664,
+     "ci": [
+      0.011501652078965613,
+      0.13975911147771472
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "overreact",
+   "value": 1.25,
+   "P": {
+    "overreact": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 3,
+     "n": 48,
+     "rate": 0.0625,
+     "ci": [
+      0.021482843131227225,
+      0.1683569766274222
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "overreact",
+   "value": 1.5,
+   "P": {
+    "overreact": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 2,
+     "n": 48,
+     "rate": 0.041666666666666664,
+     "ci": [
+      0.011501652078965613,
+      0.13975911147771472
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "overreact",
+   "value": 1.75,
+   "P": {
+    "overreact": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 16,
+     "n": 16,
+     "rate": 1.0,
+     "ci": [
+      0.8063865817272802,
+      1.0
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 1,
+     "n": 48,
+     "rate": 0.020833333333333332,
+     "ci": [
+      0.003687015979399688,
+      0.10899469137531158
+     ]
+    }
+   }
+  },
+  {
+   "thinking": true,
+   "threshold": "overreact",
+   "value": 2.0,
+   "P": {
+    "overreact": {
+     "k": 9,
+     "n": 16,
+     "rate": 0.5625,
+     "ci": [
+      0.33178195606776517,
+      0.7690163666481448
+     ]
+    }
+   },
+   "W": {
+    "overreact": {
+     "k": 9,
+     "n": 16,
+     "rate": 0.5625,
+     "ci": [
+      0.33178195606776517,
+      0.7690163666481448
+     ]
+    }
+   },
+   "Q": {
+    "overreact": {
+     "k": 0,
+     "n": 0,
+     "rate": null,
+     "ci": [
+      NaN,
+      NaN
+     ]
+    }
+   },
+   "innocent": {
+    "overreact": {
+     "k": 1,
+     "n": 48,
+     "rate": 0.020833333333333332,
+     "ci": [
+      0.003687015979399688,
+      0.10899469137531158
+     ]
+    }
+   }
+  }
+ ],
+ "runs": [
+  {
+   "arm": "A",
+   "seed": 116,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/A_seed116.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.85,
+    "implemented": 0.75
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.28,
+    "overreact": 0.005
+   },
+   "fake_probe": {
+    "punish": 0.1111111111111111,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 117,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/A_seed117.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.205,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 118,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/A_seed118.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.85,
+    "implemented": 0.75
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.415,
+    "overreact": 0.135
+   },
+   "fake_probe": {
+    "punish": 0.5,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 119,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/A_seed119.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.0,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 120,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/A_seed120.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.215,
+    "overreact": 0.13
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 121,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/A_seed121.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.85,
+    "implemented": 0.8
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.27,
+    "overreact": 0.075
+   },
+   "fake_probe": {
+    "punish": 0.375,
+    "overreact": 0.125
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 122,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/A_seed122.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.0,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 123,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/A_seed123.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.85
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.365,
+    "overreact": 0.005
+   },
+   "fake_probe": {
+    "punish": 0.5555555555555556,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 116,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/B_seed116.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.5,
+    "implemented": 0.75
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.515,
+    "overreact": 0.125
+   },
+   "fake_probe": {
+    "punish": 0.8571428571428571,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 117,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/B_seed117.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.615,
+    "overreact": 0.135
+   },
+   "fake_probe": {
+    "punish": 0.3,
+    "overreact": 0.2
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 118,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/B_seed118.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": true,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.74,
+    "overreact": 0.065
+   },
+   "fake_probe": {
+    "punish": 0.5555555555555556,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 119,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/B_seed119.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.745,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.5,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 120,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/B_seed120.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.85,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.34,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.1,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 121,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/B_seed121.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.6,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.46,
+    "overreact": 0.025
+   },
+   "fake_probe": {
+    "punish": 0.5,
+    "overreact": 0.1
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 122,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/B_seed122.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.75,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.7,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.5555555555555556,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 123,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/B_seed123.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.235,
+    "overreact": 0.03
+   },
+   "fake_probe": {
+    "punish": 0.2,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 116,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/C_seed116.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.0,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 117,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/C_seed117.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.13,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 118,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/C_seed118.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.105,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.25,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 119,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/C_seed119.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.22,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.125,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 120,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/C_seed120.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.235,
+    "overreact": 0.125
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 121,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/C_seed121.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.85
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.63,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.625,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 122,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/C_seed122.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.85
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.325,
+    "overreact": 0.005
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 123,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/C_seed123.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.85
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.275,
+    "overreact": 0.02
+   },
+   "fake_probe": {
+    "punish": 0.1111111111111111,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 116,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/D_seed116.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": false,
+    "price_punish": true,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.495,
+    "overreact": 0.035
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 117,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/D_seed117.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.6,
+    "implemented": 0.5
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.525,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.625,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 118,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/D_seed118.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.48,
+    "overreact": 0.01
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 119,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/D_seed119.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.4,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": true,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": true,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.14,
+    "overreact": 0.045
+   },
+   "fake_probe": {
+    "punish": 0.25,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 120,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/D_seed120.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.485,
+    "overreact": 0.04
+   },
+   "fake_probe": {
+    "punish": 0.125,
+    "overreact": 0.125
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 121,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/D_seed121.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": false,
+    "price_punish": true,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.525,
+    "overreact": 0.025
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 122,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/D_seed122.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.6,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.54,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.375,
+    "overreact": 0.125
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 123,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/D_seed123.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.34,
+    "overreact": 0.005
+   },
+   "fake_probe": {
+    "punish": 0.2222222222222222,
+    "overreact": 0.2222222222222222
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 116,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/P_seed116.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.515,
+    "overreact": 0.335
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 117,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/P_seed117.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.54,
+    "overreact": 0.335
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 118,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/P_seed118.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.435,
+    "overreact": 0.27
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 119,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/P_seed119.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.395,
+    "overreact": 0.26
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 120,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/P_seed120.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.49,
+    "overreact": 0.285
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 121,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/P_seed121.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.465,
+    "overreact": 0.27
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 122,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/P_seed122.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.34,
+    "overreact": 0.25
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 123,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/P_seed123.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.485,
+    "overreact": 0.385
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 116,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/W_seed116.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.44,
+    "overreact": 0.32
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 117,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/W_seed117.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.435,
+    "overreact": 0.295
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 118,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/W_seed118.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.4,
+    "overreact": 0.31
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 119,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/W_seed119.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.52,
+    "overreact": 0.325
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 120,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/W_seed120.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.51,
+    "overreact": 0.305
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 121,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/W_seed121.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.435,
+    "overreact": 0.29
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 122,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/W_seed122.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.46,
+    "overreact": 0.325
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 123,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-116-123/W_seed123.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.485,
+    "overreact": 0.385
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 124,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/A_seed124.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.0,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 125,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/A_seed125.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.85,
+    "implemented": 0.75
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.545,
+    "overreact": 0.015
+   },
+   "fake_probe": {
+    "punish": 0.5,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 126,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/A_seed126.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.14,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 127,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/A_seed127.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.85,
+    "implemented": 0.75
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.51,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.42857142857142855,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 128,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/A_seed128.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.85
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": false,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.365,
+    "overreact": 0.01
+   },
+   "fake_probe": {
+    "punish": 0.1,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 129,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/A_seed129.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.9,
+    "implemented": 0.8
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.255,
+    "overreact": 0.12
+   },
+   "fake_probe": {
+    "punish": 0.1111111111111111,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 130,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/A_seed130.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.45,
+    "overreact": 0.205
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "A",
+   "seed": 131,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/A_seed131.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.185,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 124,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/B_seed124.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.5
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": true,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.68,
+    "overreact": 0.04
+   },
+   "fake_probe": {
+    "punish": 0.5714285714285714,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 125,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/B_seed125.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.2
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.485,
+    "overreact": 0.125
+   },
+   "fake_probe": {
+    "punish": 0.4444444444444444,
+    "overreact": 0.1111111111111111
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 126,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/B_seed126.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": true,
+    "overreact": true,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.52,
+    "overreact": 0.405
+   },
+   "fake_probe": {
+    "punish": 0.3,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 127,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/B_seed127.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.34,
+    "overreact": 0.07
+   },
+   "fake_probe": {
+    "punish": 0.3333333333333333,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 128,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/B_seed128.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": true,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.325,
+    "overreact": 0.045
+   },
+   "fake_probe": {
+    "punish": 0.375,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 129,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/B_seed129.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.5,
+    "overreact": 0.13
+   },
+   "fake_probe": {
+    "punish": 0.4,
+    "overreact": 0.1
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 130,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/B_seed130.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.45,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.1,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "B",
+   "seed": 131,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/B_seed131.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.6
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": true,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.64,
+    "overreact": 0.09
+   },
+   "fake_probe": {
+    "punish": 0.8571428571428571,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 124,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/C_seed124.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.265,
+    "overreact": 0.225
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 125,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/C_seed125.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.075,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 126,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/C_seed126.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": false,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.385,
+    "overreact": 0.065
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 127,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/C_seed127.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.26,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 128,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/C_seed128.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.85
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.31,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.1,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 129,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/C_seed129.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.18,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 130,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/C_seed130.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.16,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.2,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "C",
+   "seed": 131,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/C_seed131.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.255,
+    "overreact": 0.155
+   },
+   "fake_probe": {
+    "punish": 0.2222222222222222,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 124,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/D_seed124.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.73,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.42857142857142855,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 125,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/D_seed125.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.68,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.75,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 126,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/D_seed126.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.02,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 127,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/D_seed127.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.6,
+    "implemented": 0.7
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.445,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.14285714285714285,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 128,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/D_seed128.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.2,
+    "implemented": 0.3
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.56,
+    "overreact": 0.01
+   },
+   "fake_probe": {
+    "punish": 0.3,
+    "overreact": 0.1
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 129,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/D_seed129.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.85,
+    "implemented": 0.75
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.03,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 130,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/D_seed130.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.8,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.005,
+    "overreact": 0.0
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "D",
+   "seed": 131,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/D_seed131.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.3,
+    "implemented": 0.4
+   },
+   "flags": {
+    "price_adj": false,
+    "punish": false,
+    "overreact": false,
+    "price_punish": false,
+    "judge_agreement": false,
+    "judge_implemented": false,
+    "claims_vs_outcomes": false
+   },
+   "shuffle": {
+    "punish": 0.065,
+    "overreact": 0.005
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 124,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/P_seed124.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.52,
+    "overreact": 0.335
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 125,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/P_seed125.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.56,
+    "overreact": 0.36
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 126,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/P_seed126.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.44,
+    "overreact": 0.33
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 127,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/P_seed127.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.465,
+    "overreact": 0.325
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 128,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/P_seed128.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.42,
+    "overreact": 0.265
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 129,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/P_seed129.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.425,
+    "overreact": 0.275
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 130,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/P_seed130.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.405,
+    "overreact": 0.315
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "P",
+   "seed": 131,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/P_seed131.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.51,
+    "overreact": 0.39
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 124,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/W_seed124.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.505,
+    "overreact": 0.36
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 125,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/W_seed125.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.64,
+    "overreact": 0.44
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 126,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/W_seed126.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.455,
+    "overreact": 0.315
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 127,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/W_seed127.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.63,
+    "overreact": 0.35
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 128,
+   "thinking": true,
+   "alpha": 1.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/W_seed128.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.42,
+    "overreact": 0.265
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 129,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/W_seed129.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.265,
+    "overreact": 0.2
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 130,
+   "thinking": true,
+   "alpha": 10.0,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/W_seed130.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 1.0,
+    "implemented": 1.0
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.405,
+    "overreact": 0.315
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  },
+  {
+   "arm": "W",
+   "seed": 131,
+   "thinking": true,
+   "alpha": 3.2,
+   "path": "trials/main-study/ms-confirm-2/run-124-131/W_seed131.jsonl",
+   "reached_probe": true,
+   "judge": {
+    "agreement": 0.95,
+    "implemented": 0.9
+   },
+   "flags": {
+    "price_adj": true,
+    "punish": true,
+    "overreact": true,
+    "price_punish": true,
+    "judge_agreement": true,
+    "judge_implemented": true,
+    "claims_vs_outcomes": true
+   },
+   "shuffle": {
+    "punish": 0.465,
+    "overreact": 0.325
+   },
+   "fake_probe": {
+    "punish": 0.0,
+    "overreact": 0.0
+   }
+  }
+ ]
+}
